@@ -1,0 +1,10 @@
+// php artisan make:migration table_create_products --create=products   //--create cria o método up e down e implementa eles já
+// php artisan make:Factory ProductFactory
+// php artisan make:seeder ProductTableSeeder
+// php artisan make:model Product 
+    **Depois de executar o Factory e seeder 
+      ir em database/factories/ProductFactory.php e criar os campos que deseja gerar e depois ir em 
+      database/seeds/ProductTableSeeder.php e chamar o método factory.
+      ir em database/seeds/DatabaseSeeder.php e chamar o método
+//php artisan db:seed 
+
